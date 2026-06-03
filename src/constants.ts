@@ -1,0 +1,9 @@
+export const DEFAULT_VOLUME = 90;
+export const DEFAULT_DURATION = 128;
+export const DEFAULT_CHANNEL = 0;
+
+export const MIDI_DEFAULTS = {
+    VOLUME: DEFAULT_VOLUME,
+    DURATION: DEFAULT_DURATION,
+    CHANNEL: DEFAULT_CHANNEL,
+} as const;
